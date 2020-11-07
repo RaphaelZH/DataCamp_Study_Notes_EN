@@ -33,9 +33,9 @@
 
         §1.3.1 Creating a keras model
 
-        §1.3.2
+        §1.3.2 Compiling and fitting a model
 
-        §1.3.3
+        §1.3.3 Classification models
 
         §1.3.4
 
