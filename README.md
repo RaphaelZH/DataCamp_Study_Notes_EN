@@ -39,9 +39,9 @@
 
         §1.3.4 Using models
 
-    §1.4 
+    §1.4 Fine-tuning keras models
 
-        §1.4.1 
+        §1.4.1 Understanding model optimization
 
         §1.4.2 
 
