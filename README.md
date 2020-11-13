@@ -43,7 +43,7 @@
 
         §1.4.1 Understanding model optimization
 
-        §1.4.2 
+        §1.4.2 Model validation
 
         §1.4.3 
 
