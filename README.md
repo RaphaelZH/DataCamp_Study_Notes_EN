@@ -51,11 +51,11 @@
 
         §1.4.5 Final thoughts
 
-§2 
+§2 Introduction to TensorFlow in Python
 
-    §2.1 
+    §2.1 Introduction to TensorFlow
 
-        §2.1.1 
+        §2.1.1 Constants and variables
 
         §2.1.2 
 
