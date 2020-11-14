@@ -45,9 +45,24 @@
 
         §1.4.2 Model validation
 
-        §1.4.3 
+        §1.4.3 Thinking about model capacity
 
-        §1.4.4 
+        §1.4.4 Stepping up to images
+
+        §1.4.5 Final thoughts
+
+§2 
+
+    §2.1 
+
+        §2.1.1 
+
+        §2.1.2 
+
+        §2.1.3 
+
+        §2.1.4 
+
 
 
 
