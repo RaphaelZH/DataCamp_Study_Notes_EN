@@ -57,7 +57,7 @@
 
         §2.1.1 Constants and variables
 
-        §2.1.2 
+        §2.1.2 Basic operations
 
         §2.1.3 
 
