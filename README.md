@@ -59,7 +59,7 @@
 
         §2.1.2 Basic operations
 
-        §2.1.3 
+        §2.1.3 Advanced operations
 
         §2.1.4 
 
