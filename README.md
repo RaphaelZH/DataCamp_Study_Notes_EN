@@ -61,14 +61,15 @@
 
         §2.1.3 Advanced operations
 
-    §2.2 
+    §2.2 Linear models
 
-        §2.2.1 
+        §2.2.1 Input data
 
-        §2.2.2 
+        §2.2.2 Loss functions
 
         §2.2.3 
 
+        §2.2.4 
 
 
 
