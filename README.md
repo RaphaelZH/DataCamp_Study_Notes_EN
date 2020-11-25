@@ -67,7 +67,7 @@
 
         §2.2.2 Loss functions
 
-        §2.2.3 
+        §2.2.3 Linear regression
 
         §2.2.4 
 
