@@ -69,7 +69,7 @@
 
         §2.2.3 Linear regression
 
-        §2.2.4 
+        §2.2.4 Batch training
 
 
 
@@ -102,4 +102,20 @@
 
 
 
+```
+
+
+
+```
+                #############################################
+                ##                                         ##
+                ##  Natural Language Processing in Python  ##
+                ##                                         ##
+                #############################################
+
+
+
+§1 Introduction to Natural Language Processing in Python
+
+    §1.1 Regular expressions & word tokenization
 ```
