@@ -121,6 +121,31 @@
 
         §1.1.1 Introduction to regular expressions
 
+        §1.1.2 Introduction to tokenization
+
+        §1.1.3 Advanced tokenization with NLTK and regex
+
+        §1.1.4 Charting word length with NLTK
+
+    §1.2 Simple topic identification
+
+        §1.2.1 Word counts with bag-of-words
+
+        §1.2.2 Simple text preprocessing
+
+        §1.2.3 Introduction to gensim
+
+        §1.2.4 Tf-idf with gensim
+
+    §1.3 Named-entity recognition
+
+        §1.3.1 Named entity recognition
+
+        §1.3.2
+
+        §1.3.3
+
+        §1.3.4
 
 
 
