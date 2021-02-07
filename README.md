@@ -146,8 +146,23 @@
         §1.3.3
 
         §1.3.4
+        
+        
+        
+        
+        
+§2 Sentiment Analysis in Python
+
+    §2.1 Sentiment analysis nuts and bolts
+
+        §2.1.1 Introduction to sentiment analysis
+
+        §2.1.2 Sentiment analysis types and approaches
 
 
+
+    
+    
 
 
 
