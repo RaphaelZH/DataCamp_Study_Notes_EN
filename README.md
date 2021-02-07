@@ -158,6 +158,9 @@
         §2.1.1 Introduction to sentiment analysis
 
         §2.1.2 Sentiment analysis types and approaches
+        
+        §2.1.3 Word cloud building
+
 
 
 
