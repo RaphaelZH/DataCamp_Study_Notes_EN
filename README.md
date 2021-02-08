@@ -158,8 +158,14 @@
         §2.1.1 Introduction to sentiment analysis
 
         §2.1.2 Sentiment analysis types and approaches
-        
+
         §2.1.3 Word cloud building
+
+    §2.2 Numeric features from reviews
+
+        §2.2.1 Bag-of-words
+
+        §2.2.2
 
 
 
