@@ -165,7 +165,10 @@
 
         §2.2.1 Bag-of-words
 
-        §2.2.2
+        §2.2.2 Getting granular with n-grams
+
+        §2.2.3 Build new features from text
+
 
 
 
