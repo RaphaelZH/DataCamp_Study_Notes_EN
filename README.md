@@ -167,7 +167,7 @@
 
         §2.2.2 Getting granular with n-grams
 
-        §2.2.3 Build new features from text
+        §2.2.3 Build new features from the text
 
 
 
