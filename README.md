@@ -169,6 +169,8 @@
 
         §2.2.3 Build new features from the text
 
+        §2.2.4 Ways to guess the language
+
 
 
 
