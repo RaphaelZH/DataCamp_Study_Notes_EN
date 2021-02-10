@@ -71,6 +71,23 @@
 
         §2.2.4 Batch training
 
+    §2.3 More on numeric vectors - transforming Tweets
+
+        §2.3.1 Stop words
+
+        §2.3.2 Capturing a token pattern
+
+
+
+
+
+
+
+
+
+    
+    
+
 
 
 
@@ -170,6 +187,8 @@
         §2.2.3 Build new features from the text
 
         §2.2.4 Ways to guess the language
+
+    §2.3 More on numeric vectors - transforming Tweets
 
 
 
