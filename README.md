@@ -9,7 +9,7 @@
 
 §1 Introduction to Deep Learning in Python
 
-    §1.1 Basics of deep learning and neural networks
+    §1.1 Basics of Deep Learning and Neural Networks
 
         §1.1.1 Introduction to deep learning
 
