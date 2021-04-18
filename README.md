@@ -19,7 +19,7 @@
 
         §1.1.4 Deeper networks
 
-    §1.2 Optimizing a neural network with backward propagation
+    §1.2 Optimizing a Neural Network with Backward Propagation
 
         §1.2.1 The need for optimization
 
