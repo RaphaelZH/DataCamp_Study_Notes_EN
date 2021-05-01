@@ -29,7 +29,7 @@
 
         §1.2.4 Backpropagation in practice
 
-    §1.3 Building deep learning models with keras
+    §1.3 Building Deep Learning Models with Keras
 
         §1.3.1 Creating a keras model
 
@@ -39,7 +39,7 @@
 
         §1.3.4 Using models
 
-    §1.4 Fine-tuning keras models
+    §1.4 Fine-Tuning Keras Models
 
         §1.4.1 Understanding model optimization
 
