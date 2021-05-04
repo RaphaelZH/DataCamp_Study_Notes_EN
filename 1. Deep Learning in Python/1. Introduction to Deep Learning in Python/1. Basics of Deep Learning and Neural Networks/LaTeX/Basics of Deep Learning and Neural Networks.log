@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.8.28)  23 APR 2021 14:39
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.8.28)  4 MAY 2021 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1118,11 +1118,11 @@ AED: lastpage setting LastPage
 File: ../Figures/0. Wallpaper.jpg Graphic file (type bmp)
 <../Figures/0. Wallpaper.jpg>
 [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1108.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1108.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1111.
  (./Basics of Deep Learning and Neural Networks.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1108.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1108.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1111.
 
 Package rerunfilecheck Info: File `"Basics of Deep Learning and Neural Networks
 ".out' has not changed.
