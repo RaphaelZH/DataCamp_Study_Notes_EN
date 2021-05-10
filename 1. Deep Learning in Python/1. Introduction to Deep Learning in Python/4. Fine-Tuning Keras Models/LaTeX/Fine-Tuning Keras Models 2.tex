@@ -1,4 +1,5 @@
 \documentclass[11pt, twoside]{article}
+
 	\date{\LaTeX, Puteaux, 2020, 2021}
 	\usepackage{fancyhdr}
 	\usepackage{lastpage}
@@ -433,8 +434,7 @@
 
 {{3.3~~}{[}note-3{]} Sequential experiments}
 
-{{3.4~~}{[}quiz-1{]} Practice question for experimenting with model
-structures:}
+{{3.4~~}{[}quiz-1{]} Experimenting with model structures}
 
 {{4~~}Stepping up to images}
 
@@ -522,9 +522,9 @@ descent}{{[}code-1{]} Stochastic gradient descent}}\label{code-1-stochastic-grad
 \end{tcolorbox}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-4003/4003 [==============================] - 4s 858us/step - loss: 1.2447
-4003/4003 [==============================] - 4s 921us/step - loss: 0.6708
-4003/4003 [==============================] - 4s 923us/step - loss: nan
+4003/4003 [==============================] - 4s 958us/step - loss: 1.2821
+4003/4003 [==============================] - 4s 937us/step - loss: 0.6770
+4003/4003 [==============================] - 4s 954us/step - loss: nan
     \end{Verbatim}
 
     \hypertarget{note-2-the-dying-neuron-problem}{%
@@ -655,18 +655,17 @@ parameters}{{[}task-1{]} Changing optimization parameters}}\label{task-1-changin
 
 Testing model with learning rate: 0.000001
 
-28/28 [==============================] - 0s 1ms/step - loss: 2.2489
+28/28 [==============================] - 0s 1ms/step - loss: 4.6519
 
 
 Testing model with learning rate: 0.010000
 
-28/28 [==============================] - 0s 992us/step - loss: 2.1813
+28/28 [==============================] - 0s 1ms/step - loss: 2.9535
 
 
 Testing model with learning rate: 1.000000
 
-28/28 [==============================] - 0s 932us/step - loss:
-5823429736475.8662
+28/28 [==============================] - 0s 979us/step - loss: 30021.6365
     \end{Verbatim}
 
     \hypertarget{model-validation}{%
@@ -739,14 +738,14 @@ validation}{{[}code-1{]} Model validation}}\label{code-1-model-validation}}
 \end{tcolorbox}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-2802/2802 [==============================] - 6s 2ms/step - loss: 0.6734 -
-accuracy: 0.5988 - val\_loss: 0.6577 - val\_accuracy: 0.6079
+2802/2802 [==============================] - 6s 2ms/step - loss: 0.6798 -
+accuracy: 0.5944 - val\_loss: 0.6540 - val\_accuracy: 0.6153
     \end{Verbatim}
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
 \prompt{Out}{outcolor}{6}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
-<tensorflow.python.keras.callbacks.History at 0x7fd7f0f3e990>
+<tensorflow.python.keras.callbacks.History at 0x7f05103dd990>
 \end{Verbatim}
 \end{tcolorbox}
         
@@ -771,32 +770,44 @@ stopping}{{[}code-2{]} Early stopping}}\label{code-2-early-stopping}}
 
     \begin{Verbatim}[commandchars=\\\{\}]
 Epoch 1/20
-2802/2802 [==============================] - 5s 2ms/step - loss: 0.6539 -
-accuracy: 0.6179 - val\_loss: 0.6534 - val\_accuracy: 0.6154
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6547 -
+accuracy: 0.6162 - val\_loss: 0.6512 - val\_accuracy: 0.6178
 Epoch 2/20
-2802/2802 [==============================] - 5s 2ms/step - loss: 0.6521 -
-accuracy: 0.6172 - val\_loss: 0.6583 - val\_accuracy: 0.6166
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6523 -
+accuracy: 0.6189 - val\_loss: 0.6516 - val\_accuracy: 0.6133
 Epoch 3/20
-2802/2802 [==============================] - 5s 2ms/step - loss: 0.6511 -
-accuracy: 0.6191 - val\_loss: 0.6516 - val\_accuracy: 0.6152
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6510 -
+accuracy: 0.6200 - val\_loss: 0.6512 - val\_accuracy: 0.6148
 Epoch 4/20
-2802/2802 [==============================] - 5s 2ms/step - loss: 0.6507 -
-accuracy: 0.6190 - val\_loss: 0.6503 - val\_accuracy: 0.6190
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6506 -
+accuracy: 0.6191 - val\_loss: 0.6499 - val\_accuracy: 0.6192
 Epoch 5/20
-2802/2802 [==============================] - 5s 2ms/step - loss: 0.6499 -
-accuracy: 0.6198 - val\_loss: 0.6494 - val\_accuracy: 0.6198
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6501 -
+accuracy: 0.6199 - val\_loss: 0.6499 - val\_accuracy: 0.6184
 Epoch 6/20
-2802/2802 [==============================] - 5s 2ms/step - loss: 0.6494 -
-accuracy: 0.6206 - val\_loss: 0.6514 - val\_accuracy: 0.6183
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6497 -
+accuracy: 0.6202 - val\_loss: 0.6498 - val\_accuracy: 0.6176
 Epoch 7/20
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6495 -
+accuracy: 0.6202 - val\_loss: 0.6496 - val\_accuracy: 0.6173
+Epoch 8/20
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6492 -
+accuracy: 0.6203 - val\_loss: 0.6505 - val\_accuracy: 0.6193
+Epoch 9/20
 2802/2802 [==============================] - 5s 2ms/step - loss: 0.6493 -
-accuracy: 0.6210 - val\_loss: 0.6513 - val\_accuracy: 0.6155
+accuracy: 0.6207 - val\_loss: 0.6489 - val\_accuracy: 0.6190
+Epoch 10/20
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6491 -
+accuracy: 0.6217 - val\_loss: 0.6495 - val\_accuracy: 0.6175
+Epoch 11/20
+2802/2802 [==============================] - 5s 2ms/step - loss: 0.6489 -
+accuracy: 0.6210 - val\_loss: 0.6497 - val\_accuracy: 0.6170
     \end{Verbatim}
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
 \prompt{Out}{outcolor}{7}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
-<tensorflow.python.keras.callbacks.History at 0x7fd7f17e1990>
+<tensorflow.python.keras.callbacks.History at 0x7f0510803b90>
 \end{Verbatim}
 \end{tcolorbox}
         
@@ -879,8 +890,8 @@ dataset}{{[}task-1{]} Evaluating model accuracy on a validation dataset}}\label{
 \end{tcolorbox}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-20/20 [==============================] - 0s 10ms/step - loss: 2.4766 - accuracy:
-0.5772 - val\_loss: 0.9333 - val\_accuracy: 0.6418
+20/20 [==============================] - 1s 11ms/step - loss: 0.9088 - accuracy:
+0.5695 - val\_loss: 0.6584 - val\_accuracy: 0.6418
     \end{Verbatim}
 
     \hypertarget{task-2-early-stopping-optimizing-the-optimization}{%
@@ -925,29 +936,26 @@ optimization}{{[}task-2{]} Early stopping: optimizing the optimization}}\label{t
 
     \begin{Verbatim}[commandchars=\\\{\}]
 Epoch 1/30
-20/20 [==============================] - 0s 10ms/step - loss: 1.1551 - accuracy:
-0.5592 - val\_loss: 0.6302 - val\_accuracy: 0.7052
+20/20 [==============================] - 1s 11ms/step - loss: 1.0658 - accuracy:
+0.5395 - val\_loss: 0.8986 - val\_accuracy: 0.6791
 Epoch 2/30
-20/20 [==============================] - 0s 3ms/step - loss: 0.6728 - accuracy:
-0.6736 - val\_loss: 0.7890 - val\_accuracy: 0.6418
+20/20 [==============================] - 0s 4ms/step - loss: 0.6949 - accuracy:
+0.6583 - val\_loss: 0.5223 - val\_accuracy: 0.7463
 Epoch 3/30
-20/20 [==============================] - 0s 3ms/step - loss: 0.7163 - accuracy:
-0.6343 - val\_loss: 0.5353 - val\_accuracy: 0.7201
+20/20 [==============================] - 0s 4ms/step - loss: 0.6271 - accuracy:
+0.6737 - val\_loss: 0.5056 - val\_accuracy: 0.7687
 Epoch 4/30
-20/20 [==============================] - 0s 4ms/step - loss: 0.6724 - accuracy:
-0.6570 - val\_loss: 0.5235 - val\_accuracy: 0.7873
+20/20 [==============================] - 0s 4ms/step - loss: 0.6135 - accuracy:
+0.6534 - val\_loss: 0.5378 - val\_accuracy: 0.7537
 Epoch 5/30
-20/20 [==============================] - 0s 3ms/step - loss: 0.5874 - accuracy:
-0.6929 - val\_loss: 0.5240 - val\_accuracy: 0.7351
-Epoch 6/30
-20/20 [==============================] - 0s 3ms/step - loss: 0.5482 - accuracy:
-0.7615 - val\_loss: 0.6157 - val\_accuracy: 0.7351
+20/20 [==============================] - 0s 4ms/step - loss: 0.6698 - accuracy:
+0.6720 - val\_loss: 0.5483 - val\_accuracy: 0.7463
     \end{Verbatim}
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
 \prompt{Out}{outcolor}{11}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
-<tensorflow.python.keras.callbacks.History at 0x7fd7efe845d0>
+<tensorflow.python.keras.callbacks.History at 0x7f05103073d0>
 \end{Verbatim}
 \end{tcolorbox}
         
@@ -1061,7 +1069,7 @@ network}{{[}task-4{]} Adding layers to a network}}\label{task-4-adding-layers-to
 \end{Verbatim}
 \end{tcolorbox}
 
-    \(\blacktriangleright\) \textbf{Network layers adding practice}
+    \(\blacktriangleright\) \textbf{Task practice}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 \prompt{In}{incolor}{16}{\boxspacing}
@@ -1154,10 +1162,10 @@ experiments}{{[}note-3{]} Sequential experiments}}\label{note-3-sequential-exper
 \caption{Sequential experiments}
 \end{figure}
 
-    \hypertarget{quiz-1-practice-question-for-experimenting-with-model-structures}{%
-\subsection{\texorpdfstring{\texttt{{[}quiz-1{]}} Practice question for
-experimenting with model
-structures:}{{[}quiz-1{]} Practice question for experimenting with model structures:}}\label{quiz-1-practice-question-for-experimenting-with-model-structures}}
+    \hypertarget{quiz-1-experimenting-with-model-structures}{%
+\subsection{\texorpdfstring{\texttt{{[}quiz-1{]}} Experimenting with
+model
+structures}{{[}quiz-1{]} Experimenting with model structures}}\label{quiz-1-experimenting-with-model-structures}}
 
 \begin{itemize}
 \item
@@ -1226,8 +1234,7 @@ model}{{[}task-1{]} Building an own digit recognition model}}\label{task-1-build
 \end{Verbatim}
 \end{tcolorbox}
 
-    \(\blacktriangleright\) \textbf{Evaluating model accuracy on validation
-dataset practice}
+    \(\blacktriangleright\) \textbf{Task practice}
 
     \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
 \prompt{In}{incolor}{19}{\boxspacing}
@@ -1255,14 +1262,14 @@ dataset practice}
 \end{tcolorbox}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-44/44 [==============================] - 1s 6ms/step - loss: 41.9168 - accuracy:
-0.2303 - val\_loss: 7.0109 - val\_accuracy: 0.5740
+44/44 [==============================] - 1s 6ms/step - loss: 54.3641 - accuracy:
+0.2529 - val\_loss: 7.2395 - val\_accuracy: 0.4925
     \end{Verbatim}
 
             \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
 \prompt{Out}{outcolor}{19}{\boxspacing}
 \begin{Verbatim}[commandchars=\\\{\}]
-<tensorflow.python.keras.callbacks.History at 0x7fd7b0148890>
+<tensorflow.python.keras.callbacks.History at 0x7f04e411e750>
 \end{Verbatim}
 \end{tcolorbox}
         
@@ -1306,9 +1313,14 @@ steps}{{[}note-1{]} Next steps}}\label{note-1-next-steps}}
 \PY{n}{requirements} \PY{o}{=} \PY{p}{[}\PY{p}{]}
 \PY{n}{packages} \PY{o}{=} \PY{p}{[}\PY{n}{pandas\PYZus{}version}\PY{p}{,} \PY{n}{tensorflow\PYZus{}version}\PY{p}{,} \PY{n}{matplotlib\PYZus{}version}\PY{p}{]}
 
-\PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{writepath}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{r}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{file}\PY{p}{:}
-    \PY{k}{for} \PY{n}{line} \PY{o+ow}{in} \PY{n}{file}\PY{p}{:}
-        \PY{n}{requirements}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{line}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+\PY{k}{try}\PY{p}{:}
+    \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{writepath}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{r+}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{file}\PY{p}{:}
+        \PY{k}{for} \PY{n}{line} \PY{o+ow}{in} \PY{n}{file}\PY{p}{:}
+            \PY{n}{requirements}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{line}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
+\PY{k}{except}\PY{p}{:}
+    \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{writepath}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{w+}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{file}\PY{p}{:}
+        \PY{k}{for} \PY{n}{line} \PY{o+ow}{in} \PY{n}{file}\PY{p}{:}
+            \PY{n}{requirements}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{line}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{)}
 
 \PY{k}{with} \PY{n+nb}{open}\PY{p}{(}\PY{n}{writepath}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{a}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{file}\PY{p}{:}
     \PY{k}{for} \PY{n}{package} \PY{o+ow}{in} \PY{n}{packages}\PY{p}{:}
