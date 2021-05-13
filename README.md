@@ -61,7 +61,7 @@
 
         §2.1.3 Advanced operations
 
-    §2.2 Linear models
+    §2.2 Linear Models
 
         §2.2.1 Input data
 
