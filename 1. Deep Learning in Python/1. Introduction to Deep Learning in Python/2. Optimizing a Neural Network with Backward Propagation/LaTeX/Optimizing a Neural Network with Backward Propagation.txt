@@ -60,8 +60,8 @@
 \newlabel{code-1-calculate-slopes-and-update-weights}{{2.4}{8}{\texorpdfstring {\texttt {{[}code-1{]}} Calculate slopes and update weights}{{[}code-1{]} Calculate slopes and update weights}}{subsection.2.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5}\texttt  {{[}task-1{]}} Calculating slopes}{9}{subsection.2.5}\protected@file@percent }
 \newlabel{task-1-calculating-slopes}{{2.5}{9}{\texorpdfstring {\texttt {{[}task-1{]}} Calculating slopes}{{[}task-1{]} Calculating slopes}}{subsection.2.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}\texttt  {{[}task-2{]}} Improving model weights}{10}{subsection.2.6}\protected@file@percent }
-\newlabel{task-2-improving-model-weights}{{2.6}{10}{\texorpdfstring {\texttt {{[}task-2{]}} Improving model weights}{{[}task-2{]} Improving model weights}}{subsection.2.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}\texttt  {{[}task-2{]}} Improving model weights}{9}{subsection.2.6}\protected@file@percent }
+\newlabel{task-2-improving-model-weights}{{2.6}{9}{\texorpdfstring {\texttt {{[}task-2{]}} Improving model weights}{{[}task-2{]} Improving model weights}}{subsection.2.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.7}\texttt  {{[}task-3{]}} Making multiple updates to weights}{10}{subsection.2.7}\protected@file@percent }
 \newlabel{task-3-making-multiple-updates-to-weights}{{2.7}{10}{\texorpdfstring {\texttt {{[}task-3{]}} Making multiple updates to weights}{{[}task-3{]} Making multiple updates to weights}}{subsection.2.7}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Backpropagation}{12}{section.3}\protected@file@percent }
