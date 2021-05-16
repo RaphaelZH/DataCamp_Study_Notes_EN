@@ -17,8 +17,8 @@
 \providecommand*\HyPL@Entry[1]{}
 \HyPL@Entry{0<</S/D>>}
 \providecommand \oddpage@label [2]{}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Creating a keras model}{2}{section.1}\protected@file@percent }
-\newlabel{creating-a-keras-model}{{1}{2}{Creating a keras model}{section.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Creating a Keras model}{2}{section.1}\protected@file@percent }
+\newlabel{creating-a-keras-model}{{1}{2}{Creating a Keras model}{section.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}\texttt  {{[}note-1{]}} Model building steps}{2}{subsection.1.1}\protected@file@percent }
 \newlabel{note-1-model-building-steps}{{1.1}{2}{\texorpdfstring {\texttt {{[}note-1{]}} Model building steps}{{[}note-1{]} Model building steps}}{subsection.1.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2}\texttt  {{[}code-1{]}} Model specification}{2}{subsection.1.2}\protected@file@percent }

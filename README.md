@@ -31,7 +31,7 @@
 
     §1.3 Building Deep Learning Models with Keras
 
-        §1.3.1 Creating a keras model
+        §1.3.1 Creating a Keras model
 
         §1.3.2 Compiling and fitting a model
 
@@ -71,13 +71,15 @@
 
         §2.2.4 Batch training
 
-    §2.3 More on numeric vectors - transforming Tweets
+    §2.3 Neural Networks
 
-        §2.3.1 Stop words
+        §2.3.1 Dense layers
 
-        §2.3.2 Capturing a token pattern
+        §2.3.2 Activation functions
 
+        §2.3.3 Optimizers
 
+        §2.3.4 Training a network in TensorFlow
 
 
 
