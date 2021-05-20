@@ -81,18 +81,15 @@
 
         §2.3.4 Training a network in TensorFlow
 
-    §2.4 Defining Neural Networks with Keras
+    §2.4 High-Level APIs
 
-        §2.4.1
+        §2.4.1 Defining neural networks with Keras
 
-        §2.4.2
+        §2.4.2 Training and validation with Keras
 
-        §2.4.3
+        §2.4.3 Training models with the Estimators API
 
-        §2.4.4
-
-        §2.4.5
-
+        §2.4.4 Congratulations!
 
 
 
