@@ -81,6 +81,17 @@
 
         §2.3.4 Training a network in TensorFlow
 
+    §2.4 Defining Neural Networks with Keras
+
+        §2.4.1
+
+        §2.4.2
+
+        §2.4.3
+
+        §2.4.4
+
+        §2.4.5
 
 
 
