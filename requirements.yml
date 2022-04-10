@@ -1,0 +1,48 @@
+name: miniforge3_python39
+channels:
+  - anaconda
+  - apple
+  - conda-forge
+dependencies:
+  - bzip2=1.0.8=h3422bc3_4
+  - c-ares=1.18.1=h3422bc3_0
+  - ca-certificates=2021.10.8=h4653dfc_0
+  - cached-property=1.5.2=hd8ed1ab_1
+  - cached_property=1.5.2=pyha770c72_1
+  - grpcio=1.45.0=py39hc66773f_0
+  - h5py=3.6.0=nompi_py39hd982b79_100
+  - hdf5=1.12.1=nompi_hd9dbc9e_104
+  - krb5=1.19.3=he492e65_0
+  - libblas=3.9.0=14_osxarm64_openblas
+  - libcblas=3.9.0=14_osxarm64_openblas
+  - libcurl=7.82.0=h9476f53_0
+  - libcxx=13.0.1=h6a5c8ee_0
+  - libedit=3.1.20191231=hc8eb9b7_2
+  - libev=4.33=h642e427_1
+  - libffi=3.4.2=h3422bc3_5
+  - libgfortran=5.0.0.dev0=11_0_1_hf114ba7_23
+  - libgfortran5=11.0.1.dev0=hf114ba7_23
+  - liblapack=3.9.0=14_osxarm64_openblas
+  - libnghttp2=1.47.0=hf30690b_0
+  - libopenblas=0.3.20=openmp_h2209c59_0
+  - libssh2=1.10.0=h7a5bd25_2
+  - libzlib=1.2.11=h90dfc92_1014
+  - llvm-openmp=13.0.1=h455960f_1
+  - ncurses=6.3=h07bb92c_1
+  - numpy=1.21.5=py39h47fb9ce_0
+  - openssl=3.0.2=h90dfc92_1
+  - pip=22.0.4=pyhd8ed1ab_0
+  - python=3.9.12=h14b404e_1_cpython
+  - python_abi=3.9=2_cp39
+  - readline=8.1=hedafd6a_0
+  - setuptools=62.0.0=py39h2804cbe_0
+  - six=1.16.0=pyh6c4a22f_0
+  - sqlite=3.37.1=h7e3ccbd_0
+  - tensorflow-deps=2.8.0=0
+  - tk=8.6.12=he1e0b03_0
+  - tzdata=2022a=h191b570_0
+  - virtualenv=16.7.5=py_0
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - xz=5.2.5=h642e427_1
+  - zlib=1.2.11=h90dfc92_1014
+prefix: /Users/haozhang/miniforge3/envs/miniforge3_python39

@@ -5,6 +5,7 @@ ipykernel
 ipython
 jupyter    
 jupyter_contrib_nbextensions
+jupyterlab
 matplotlib                    
 nbconvert                     
 nltk                          
@@ -18,6 +19,8 @@ pymysql
 pyspark                                         
 scikit-learn                  
 seaborn                       
-setuptools                                       
+setuptools
+tensorflow-macos
+tensorflow-metal                                 
 wheel
 yapf             
