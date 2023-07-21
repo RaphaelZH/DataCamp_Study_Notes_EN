@@ -1,2 +1,6 @@
 .DS_Store
-venv_datacamp/*
+.ipynb_checkpoints
+
+venv-python3-10/*
+
+

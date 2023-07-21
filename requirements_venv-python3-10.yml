@@ -1,0 +1,42 @@
+name: miniconda3-10
+channels:
+  - apple
+  - defaults
+dependencies:
+  - blas=1.0=openblas
+  - bzip2=1.0.8=h620ffc9_4
+  - c-ares=1.19.0=h80987f9_0
+  - ca-certificates=2023.05.30=hca03da5_0
+  - certifi=2023.5.7=py310hca03da5_0
+  - grpcio=1.42.0=py310h95c9599_0
+  - h5py=3.6.0=py310h181c318_0
+  - hdf5=1.12.1=h160e8cb_2
+  - krb5=1.19.4=h8380606_0
+  - libcurl=7.88.1=h0f1d93c_0
+  - libcxx=14.0.6=h848a8c0_0
+  - libedit=3.1.20221030=h80987f9_0
+  - libev=4.33=h1a28f6b_1
+  - libffi=3.4.2=hca03da5_6
+  - libgfortran=5.0.0=11_3_0_hca03da5_28
+  - libgfortran5=11.3.0=h009349e_28
+  - libnghttp2=1.46.0=h95c9599_0
+  - libopenblas=0.3.21=h269037a_0
+  - libssh2=1.10.0=hf27765b_0
+  - llvm-openmp=14.0.6=hc6e5704_0
+  - ncurses=6.4=h313beb8_0
+  - numpy=1.22.3=py310hdb36b11_0
+  - numpy-base=1.22.3=py310h5e3e9f0_0
+  - openssl=1.1.1u=h1a28f6b_0
+  - pip=23.0.1=py310hca03da5_0
+  - python=3.10.10=hc0d8a6c_2
+  - readline=8.2=h1a28f6b_0
+  - setuptools=65.6.3=py310hca03da5_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.41.2=h80987f9_0
+  - tensorflow-deps=2.9.0=0
+  - tk=8.6.12=hb8d0fd4_0
+  - tzdata=2023c=h04d1e81_0
+  - wheel=0.38.4=py310hca03da5_0
+  - xz=5.2.10=h80987f9_1
+  - zlib=1.2.13=h5a0b063_0
+prefix: /Users/haozhang/opt/miniconda/envs/miniconda3-10
